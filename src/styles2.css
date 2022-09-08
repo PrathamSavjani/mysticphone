@@ -1,0 +1,91 @@
+:root {
+  --theme1: #18191a;
+  --theme2: white;
+  --theme3: rgb(129, 152, 163);
+}
+
+.maindivv {
+  background-color: var(--theme1);
+  margin: auto;
+}
+
+/* main content */
+h1.title {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 3rem;
+  color: var(--theme2);
+}
+br {
+  visibility: hidden;
+}
+h1.title::selection {
+  background-color: var(--theme2);
+  color: var(--theme1);
+}
+.coll1 {
+  padding: 10% 3% 14% 14%;
+}
+.coll2 {
+  padding: 5% 10% 5% 5%;
+}
+.Vibes::selection {
+  background-color: var(--theme2);
+  color: var(--theme1);
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+h3::selection {
+  background-color: var(--theme1);
+  color: var(--theme2);
+}
+#features {
+  padding: 7% 14%;
+}
+.featurebox {
+  text-align: center;
+}
+.fe-icon {
+  color: #4a4948;
+  font-size: 100px;
+  margin-bottom: 2rem;
+}
+.fe-icon:hover {
+  color: black;
+}
+
+h5::selection {
+  background-color: var(--theme1);
+  color: var(--theme2);
+}
+img::selection {
+  background-color: var(--theme1);
+  color: var(--theme2);
+}
+.intro-prob {
+  color: var(--theme1);
+  padding: 7% 14%;
+  font-family: "Ubuntu Condensed", sans-serif;
+  text-align: center;
+}
+a {
+  color: var(--theme1);
+}
+h3 {
+  font-size: 200%;
+}
+.media-body {
+  font-family: "Work Sans", sans-serif;
+  color: var(--theme1);
+}
+.para-prob {
+  color: var(--theme3);
+}
+p::selection {
+  color: var(--theme2);
+  background-color: var(--theme1);
+}
